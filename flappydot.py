@@ -55,7 +55,8 @@ class FlappyGame(GameApp):
         pass
 
     def on_key_pressed(self, event):
-        pass
+        self.dot.start()
+        self.dot.jump()
 
 class PillarPair(Sprite):
     def update(self):
