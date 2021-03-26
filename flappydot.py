@@ -28,7 +28,7 @@ class Dot(Sprite):
         self.is_started = True
     
     def jump(self):
-        self.vu = JUMP_VELOCITY
+        self.vy = JUMP_VELOCITY
 
 class FlappyGame(GameApp):
     def create_sprites(self):
