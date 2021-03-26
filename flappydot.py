@@ -11,16 +11,8 @@ STARTING_VELOCITY = -30
 
 JUMP_VELOCITY = -20
 PILLAR_SPEED = 10
-PILLAR_SPEED = 8
 PILLAR_VELOCITY = -10
 
-class Dot(Sprite):
-    def init_element(self):
-        self.vy = STARTING_VELOCITY
-    
-    def update(self):
-        self.y += self.vy
-        self.vy += GRAVITY
 
 class Dot(Sprite):
     def init_element(self):
